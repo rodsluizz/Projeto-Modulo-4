@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header__{
+    margin-top: 20px;
+}
+
+.header__ ul{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.header__ ul li{
+    list-style-type: none;
+}
+
+.header__ ul li {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 16pt;
+    text-decoration: none;
+    font-family: 'Signika Negative', sans-serif;
+    color: #38ef7d;
+    border: 1px solid #38ef7d;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.header__ ul li:hover{
+    background: #11998e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    border: none;
+}
+
+@media (max-width: 900px) {
+    .header__ ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+    .header__ ul li{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+    }
+
+    .header__ ul li i{
+        padding-left: 5px;
+    }
+}
+
+@media (max-width: 400px){
+    .header__ ul li{
+        width: 100%;
+    }
+}

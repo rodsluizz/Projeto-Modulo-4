@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+
+.carousel-caption{
+    font-family: 'Signika Negative', sans-serif;
+}
+
+
+.titulo__imagem{
+    font-size: 3em;
+    text-shadow: 3px 3px 3px  rgba(0, 0, 0, 0.473);
+}
+
+.button_carrosel{
+    color: #fff;
+    font-size: 1.5em;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    border: none;
+    background: #11998e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e);
+    z-index: 999; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@media (max-width: 767px) {
+    .button_carrosel{
+        font-size: 1em;
+    }
+    .titulo__imagem{
+        font-size: 1em;
+    }
+}

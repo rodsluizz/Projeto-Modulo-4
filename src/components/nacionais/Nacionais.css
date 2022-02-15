@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap');
+
+
+.titulo__{
+    display: flex;
+    justify-content: center;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: bold;
+    margin-top: 70px;
+}
+
+.section__{
+    background-image: url(/src/Assets/imgs/img5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px;
+    position: relative;
+    height: 450px;
+}
+
+/*.section__ img{
+    position: absolute;
+    width: inherit;
+    height: inherit;
+}*/
+
+.tituloSection{
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 400;
+}
+
+.div__{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.div__ h2{
+    color: #fff;
+}
+
+.div__ p{
+    font-size: 16pt;
+    font-family: 'Signika Negative', sans-serif;
+    color: #fff;
+}
+
+.cardss__, .carddss__{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.267) 1px 1px 5px 1px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.cardss__ h4, .carddss__ h4{
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.cardss__ p, .carddss__ p{
+    padding: 10px;
+}
+
+.cards__{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 4fr 4fr 4fr 4fr;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.cardss__ ul, .carddss__ ul{
+    display: flex;
+    gap: 20px;
+}
+
+.cardsEscondidos{
+    display: none;
+}
+
+.cardss__ ul li, .carddss__ ul li{
+    list-style-type: none;
+    font-size: 15pt;
+}
+
+.cardss__ ul li a, .carddss__ ul li a{
+    text-decoration: none;
+    color: #38ef7d;
+}
+
+.cardss__ ul li a:hover{
+    text-decoration: none;
+    color: #08be4e;
+}
+
+.carddss__ ul li a:hover{
+    text-decoration: none;
+    color: #08be4e;
+}
+
+@media (max-width: 1438px) {
+    .cardss__{
+        display: none;
+    }
+    .cards__{
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 6fr 6fr;
+        margin-top: 70px;
+        margin-bottom: 70px;
+        gap: 30px;
+    }
+
+    .cardsEscondidos{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+    }
+    .section__{
+        display: flex;
+        flex-direction: column;
+    }
+    .div__{
+        align-items: center;
+    }
+}
+
+@media (max-width: 1000px) {
+    .cardsEscondidos{
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cards__{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 70px;
+        margin-bottom: 70px;
+        gap: 30px;
+    }
+}
