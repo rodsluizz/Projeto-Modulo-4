@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@700&display=swap');
+
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section img{
+    width: 985px;
+}
+
+.formulario__{
+    font-size: 14pt;
+    font-family: 'Signika Negative', sans-serif;;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    max-width: 400px;
+    background: #11998e;
+    background: -webkit-linear-gradient(
+        to right,
+        #38ef7e44,
+        #11998e44
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+    to right,
+    #38ef7e44,
+    #11998e44
+    );
+    border-radius: 10px;
+    padding: 2%;
+    box-shadow: 0px 0px 10px 1px #11998e44;
+}
+
+.formulario__:hover{
+    background: #11998e;
+    background: -webkit-linear-gradient(
+        to right,
+        #38ef7e80,
+        #11998e80
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+    to right,
+    #38ef7e80,
+    #11998e80
+    );
+}
+
+.formulario__ input{
+    border: none;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.formulario__ textarea{
+    border: none;
+}
+
+.formulario__ button{
+    background-color: #38ef7e80;
+    border: none;
+    margin-top: 20px;
+    padding: 8px;
+    border-radius: 10px;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+
+.formulario__ button:hover{
+    background-color: #11998e;
+}
+
+@media (max-width: 1600px) {
+
+    section img{
+        width: 600px;
+    }
+
+    section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formulario__{
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    .formulario__{
+        width: 90%;
+    }
+    section img{
+        width: 400px;
+    }
+}
+
+@media (max-width: 400px) {
+    section img{
+        width: 300px;
+    }
+}
+
+@media (max-width: 300px) {
+    section img{
+        width: 200px;
+    }
+}
