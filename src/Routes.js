@@ -4,6 +4,7 @@ import Contato from "./components/contato/Contato";
 import Internacionais from "./components/internacionais/Internacionais";
 import Nacionais from "./components/nacionais/Nacionais";
 import HomePage from "./components/homepage/HomePage";
+import Destinos from "./components/destinos/Destinos";
 
 export default () => {
     return(
@@ -13,6 +14,7 @@ export default () => {
             <Route path="/Contato" element={ <Contato /> }/>
             <Route path="/Nacionais" element={ <Nacionais /> }/>
             <Route path="/Internacionais" element={ <Internacionais /> }/>
+            <Route path="/Destinos" element={ <Destinos /> }/>
         </Routes>
 
     )

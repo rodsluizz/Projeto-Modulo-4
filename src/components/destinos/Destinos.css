@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap');
+
+.sectionCadastrosEAtualizacoes{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+}
+
+
+.divBackgroundDestinos{
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.divBackgroundDestinos h2{
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 30pt;
+}
+
+.formDestinos{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: bolder;
+    gap: 10px;
+}
+
+.formDestinos .botao{
+    border: none;
+    background-color: #08be4e;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.formDestinos .botao:hover{
+    border: none;
+    background-color: #38ef7d;
+    border-radius: 10px;
+}
+
+.tituloTabela{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 30pt;
+    text-align: center;
+}
+
+.tabelaDestinos{
+    display: flex;
+    margin: auto;
+    width: 80%;
+}
+
+.sectionDestinosCadastrados{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    justify-items: center;
+}
+
+.cardsDestinosCadastrados{
+    background-color: #38ef7d;
+    width: 250px;
+    border-radius: 15px 15px 60px 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Signika Negative', sans-serif;
+    padding: 15px;
+}
+
+.cardsDestinosCadastrados button{
+    float: right;
+    border: none;
+    background: none;
+}
+
+.cardsDestinosCadastrados i:hover{
+    color: red;
+}
+
+.cardsDestinosCadastrados:hover{
+    box-shadow: 0px 0px 4px 2px #38ef7e44;
+}
+
+@media (max-width: 1068px) {
+    .sectionDestinosCadastrados{
+        display: grid;
+        grid-template-columns: 4fr 4fr 4fr;
+        justify-items: center;
+    }
+}
+
+@media (max-width: 850px) {
+    .sectionCadastrosEAtualizacoes{
+        display: block;
+    }
+}
+
+@media (max-width: 800px) {
+    .sectionDestinosCadastrados{
+        display: grid;
+        grid-template-columns: 6fr 6fr;
+        justify-items: center;
+    }
+}
+
+@media (max-width: 535px) {
+    .sectionDestinosCadastrados{
+        display: grid;
+        grid-template-columns: 12fr;
+        justify-items: center;
+    }
+    .formDestinos{
+        width: 250px;
+    }
+
+    .divBackgroundDestinos h2{
+        text-align: center;
+    }
+}

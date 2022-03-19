@@ -18,7 +18,7 @@ export default function MediaCard() {
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          Lizard
+          Viagens Paradisíacas
         </Typography>
         <Typography variant="body2" color="text.secondary">
           Lizards are a widespread group of squamate reptiles, with over 6,000
@@ -26,8 +26,8 @@ export default function MediaCard() {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button color="primary" size="small">Share</Button>
-        <Button size="small">Learn More</Button>
+        <Button color="primary" size="small">Comprar</Button>
+        <Button size="small">Ver Mais</Button>
       </CardActions>
     </Card>
   );

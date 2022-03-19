@@ -4,6 +4,16 @@
     justify-content: space-around;
 }
 
+.card-link1{
+    text-decoration: none;
+    border: none;
+    width: 150px;
+    font-family: 'Signika Negative', sans-serif;
+    background-color: rgba(255, 255, 0, 0);
+    color: #38ef7d;
+    font-size: 16pt;
+}
+
 @media (max-width: 1215px) {
     .parteMeioSite{
         display: grid;

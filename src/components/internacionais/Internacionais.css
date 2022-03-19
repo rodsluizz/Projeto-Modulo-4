@@ -15,7 +15,7 @@ h1{
     margin: 30px;
 }
 
-.spaceEuropa{
+.spaceEuropa {
     display: flex;
     border: rgba(128, 128, 128, 0.192) solid 1px;
     width: 1000px;
@@ -87,3 +87,35 @@ h1{
     font-size: 20pt;
 }
 
+@media (max-width: 1060px) {
+    .spaceEuropa{
+        max-width: 900px;
+    }
+}
+
+@media (max-width: 932px) {
+    .spaceEuropa{
+        max-width: 800px;
+    }
+}
+
+@media (max-width: 832px) {
+    .spaceEuropa{
+        display: block;
+        max-width: 294px;
+    }
+
+    .spaceEuropa img{
+        max-width: 292px;
+    }
+
+    .descricaoViagem {
+        align-items: center;
+    }
+
+    .descricaoViagem p{
+        text-align: center;
+    }
+
+
+}

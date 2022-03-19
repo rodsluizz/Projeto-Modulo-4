@@ -16,21 +16,21 @@ export default function Carrosel() {
           <img src={img1} className="d-block w-100 imagem" alt="..." />
             <div className="carousel-caption d-md-block">
               <h5 className="titulo__imagem">Roteiros Nacionais</h5>
-              <button className="button_carrosel">quero ir <i class="fas fa-plane-departure"></i></button>
+              <button className="button_carrosel">quero ir <i className="fas fa-plane-departure"></i></button>
             </div>
           </div>
           <div className="carousel-item">
             <img src={img2} className="d-block w-100 imagem" alt="..." />
             <div className="carousel-caption d-md-block">
               <h5 className="titulo__imagem">Viagens Internacionais</h5>
-              <button className="button_carrosel">quero ir <i class="fas fa-plane-departure"></i></button>
+              <button className="button_carrosel">quero ir <i className="fas fa-plane-departure"></i></button>
             </div>
           </div>
           <div className="carousel-item">
             <img src={img3} className="d-block w-100 imagem" alt="..." />
             <div className="carousel-caption d-md-block">
               <h5 className="titulo__imagem">Paisagens Incríveis</h5>
-              <button className="button_carrosel">quero ir <i class="fas fa-plane-departure"></i></button>
+              <button className="button_carrosel">quero ir <i className="fas fa-plane-departure"></i></button>
             </div>
           </div>
         </div>

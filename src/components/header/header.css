@@ -38,6 +38,14 @@
     border: none;
 }
 
+@media (max-width: 1072px) {
+    .header__ ul{
+        display: grid;
+        grid-template-columns: 200px 220px 260px;
+        row-gap: 5px;
+    }
+}
+
 @media (max-width: 900px) {
     .header__ ul{
         display: flex;

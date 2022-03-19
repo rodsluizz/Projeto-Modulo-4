@@ -9,19 +9,23 @@ export default function Header() {
             <ul>
                 <li onClick={()=>{
                   navigate("/")
-                }}>Home <i class="fas fa-home"></i></li>
+                }}>Home <i className="fas fa-home"></i></li>
 
                 <li onClick={()=>{
                   navigate("/Nacionais")
-                }}>Nacionais <i class="fas fa-location-arrow"></i></li>
+                }}>Nacionais <i className="fas fa-location-arrow"></i></li>
 
                 <li onClick={()=>{
                   navigate("/Internacionais")
-                }}>Internacionais <i class="fas fa-globe-americas"></i></li>
+                }}>Internacionais <i className="fas fa-globe-americas"></i></li>
 
                 <li onClick={()=>{
                   navigate("/Contato")
-                }}>Contato <i class="fas fa-phone"></i></li>
+                }}>Contato <i className="fas fa-phone"></i></li>
+
+                <li onClick={()=>{
+                  navigate("/Destinos")
+                }}>Destinos <i className="fas fa-map-marked-alt"></i></li>
             </ul>
         </header>
     </>  

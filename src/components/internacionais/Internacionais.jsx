@@ -15,7 +15,7 @@ export default function Internacionais(){
                     <div className="descricaoViagem">
                         <h4>Roma</h4>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione, modi, ipsam quos perferendis recusandae autem reiciendis nihil eveniet magni eos obcaecati deserunt odio exercitationem commodi quas, ut ipsum. Mollitia, laborum.</p>
-                        <button>Comprar <i class="fas fa-shopping-cart"></i></button>
+                        <button>Comprar <i className="fas fa-shopping-cart"></i></button>
                     </div>
                 </div>
                 <div className="spaceEuropa">
@@ -39,7 +39,7 @@ export default function Internacionais(){
                     <div className="descricaoViagem">
                         <h4>Londres</h4>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione, modi, ipsam quos perferendis recusandae autem reiciendis nihil eveniet magni eos obcaecati deserunt odio exercitationem commodi quas, ut ipsum. Mollitia, laborum.</p>
-                        <button>Comprar <i class="fas fa-shopping-cart"></i></button>
+                        <button>Comprar <i className="fas fa-shopping-cart"></i></button>
                     </div>
                 </div>
             </section>

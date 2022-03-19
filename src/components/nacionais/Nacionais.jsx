@@ -22,27 +22,27 @@ export default function Nacionais(){
                     <h4>Maravilhas do Brasil</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, nesciunt. Dicta odit soluta quis aut quam atque blanditiis facere ducimus. Cupiditate fuga beatae a autem? Quo quia optio odio et?</p>
                     <ul>
-                        <li><a href="#"><i class="fas fa-heart"></i></a></li>
-                        <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
-                        <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                        <li><a href="#"><i className="fas fa-heart"></i></a></li>
+                        <li><a href="#"><i className="fas fa-share-alt"></i></a></li>
+                        <li><a href="#"><i className="fas fa-shopping-cart"></i></a></li>
                     </ul>
                 </div>
                 <div className="cardss__">
                     <h4>Maravilhas do Brasil</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, nesciunt. Dicta odit soluta quis aut quam atque blanditiis facere ducimus. Cupiditate fuga beatae a autem? Quo quia optio odio et?</p>
                     <ul>
-                        <li><a href="#"><i class="fas fa-heart"></i></a></li>
-                        <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
-                        <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                        <li><a href="#"><i className="fas fa-heart"></i></a></li>
+                        <li><a href="#"><i className="fas fa-share-alt"></i></a></li>
+                        <li><a href="#"><i className="fas fa-shopping-cart"></i></a></li>
                     </ul>
                 </div>
                 <div className="cardss__">
                     <h4>Maravilhas do Brasil</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, nesciunt. Dicta odit soluta quis aut quam atque blanditiis facere ducimus. Cupiditate fuga beatae a autem? Quo quia optio odio et?</p>
                     <ul>
-                        <li><a href="#"><i class="fas fa-heart"></i></a></li>
-                        <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
-                        <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                        <li><a href="#"><i className="fas fa-heart"></i></a></li>
+                        <li><a href="#"><i className="fas fa-share-alt"></i></a></li>
+                        <li><a href="#"><i className="fas fa-shopping-cart"></i></a></li>
                     </ul>
                 </div>
            </section>
@@ -51,27 +51,27 @@ export default function Nacionais(){
                     <h4>Maravilhas do Brasil</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, nesciunt. Dicta odit soluta quis aut quam atque blanditiis facere ducimus. Cupiditate fuga beatae a autem? Quo quia optio odio et?</p>
                     <ul>
-                        <li><a href="#"><i class="fas fa-heart"></i></a></li>
-                        <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
-                        <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                        <li><a href="#"><i className="fas fa-heart"></i></a></li>
+                        <li><a href="#"><i className="fas fa-share-alt"></i></a></li>
+                        <li><a href="#"><i className="fas fa-shopping-cart"></i></a></li>
                     </ul>
                 </div>
                 <div className="carddss__">
                     <h4>Maravilhas do Brasil</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, nesciunt. Dicta odit soluta quis aut quam atque blanditiis facere ducimus. Cupiditate fuga beatae a autem? Quo quia optio odio et?</p>
                     <ul>
-                        <li><a href="#"><i class="fas fa-heart"></i></a></li>
-                        <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
-                        <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                        <li><a href="#"><i className="fas fa-heart"></i></a></li>
+                        <li><a href="#"><i className="fas fa-share-alt"></i></a></li>
+                        <li><a href="#"><i className="fas fa-shopping-cart"></i></a></li>
                     </ul>
                 </div>
                 <div className="carddss__">
                     <h4>Maravilhas do Brasil</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, nesciunt. Dicta odit soluta quis aut quam atque blanditiis facere ducimus. Cupiditate fuga beatae a autem? Quo quia optio odio et?</p>
                     <ul>
-                        <li><a href="#"><i class="fas fa-heart"></i></a></li>
-                        <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
-                        <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                        <li><a href="#"><i className="fas fa-heart"></i></a></li>
+                        <li><a href="#"><i className="fas fa-share-alt"></i></a></li>
+                        <li><a href="#"><i className="fas fa-shopping-cart"></i></a></li>
                     </ul>
                 </div>
             </div>
