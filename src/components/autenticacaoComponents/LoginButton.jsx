@@ -7,7 +7,7 @@ export default function LoginButton() {
 
     return(
         !isAuthenticated &&(
-        <button  onClick={() => loginWithRedirect()}>
+        <button className="btnStyle" onClick={() => loginWithRedirect()}>
             Login 
         </button>
         )
