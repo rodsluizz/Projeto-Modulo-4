@@ -1,7 +1,12 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import { useAuth0 } from "@auth0/auth0-react";
+
 
 export default function Header() {
+
+  const {user, isAuthenticated } = useAuth0();
+
   let navigate = useNavigate()
   return (
     <>
@@ -23,9 +28,12 @@ export default function Header() {
                   navigate("/Contato")
                 }}>Contato <i className="fas fa-phone"></i></li>
 
-                <li onClick={()=>{
+                {isAuthenticated &&(
+                  <li onClick={()=>{
                   navigate("/Destinos")
                 }}>Destinos <i className="fas fa-map-marked-alt"></i></li>
+                )}
+                
             </ul>
         </header>
     </>  

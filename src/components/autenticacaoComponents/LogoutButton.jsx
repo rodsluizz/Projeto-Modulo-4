@@ -7,7 +7,7 @@ export default function LogoutButton() {
     const { logout, isAuthenticated } = useAuth0();
 
     return(
-        !isAuthenticated &&(
+        isAuthenticated &&(
             <button className="btnStyle" onClick={() => logout()}>
                 Sair
             </button>

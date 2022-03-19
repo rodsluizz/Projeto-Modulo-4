@@ -4,8 +4,13 @@ import "../destinos/Destinos.css";
 import api from "../../api";
 import FormCadastro from "./FormCadastro";
 import FormAtualizacao from "./FormAtualizacao";
+import { useAuth0 } from "@auth0/auth0-react";
+
 
 export default function Destinos() {
+
+const {user, isAuthenticated } = useAuth0();
+
 
   const id = useRef()
   const localDestino = useRef()
@@ -25,6 +30,8 @@ export default function Destinos() {
 
 
   return (
+    isAuthenticated &&(
+
     <>
     <section className="sectionCadastrosEAtualizacoes">
 
@@ -50,5 +57,6 @@ export default function Destinos() {
         ))}
       </section>
     </>
+    )
   );
 }

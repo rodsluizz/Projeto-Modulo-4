@@ -17,7 +17,6 @@ export default function Navbar() {
         </h2>
         <LoginButton/>
         <LogoutButton/>
-        <Profile/>
       </nav>
     </>
   );
